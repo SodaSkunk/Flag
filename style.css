@@ -2,12 +2,29 @@ body {
     background-image: url("gifs/vert.gif");
 }
 
-h1 {
-    color: aqua;
+.textstyle {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.textcenter {
+    text-align: center;
 }
 
 div {
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 80%;
-    Height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 70%;
+    Height: 100vh;
+    Padding: 50px;
+    margin: 0%;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-image: url("gifs/tinysparklestar.gif");
+  }
