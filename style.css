@@ -11,12 +11,34 @@ body {
     text-align: center;
 }
 
-div {
-    background-color: rgba(255, 255, 255, 0.9);
-    width: 70%;
-    Height: 100vh;
-    Padding: 50px;
-    margin: 0%;
+p.bar {
+    text-align: right;
+    font-size: large;
+    color: white;
+    margin: 0 5px 0 5px;
+}
+
+div.bar{
+    background-color: deeppink;
+    width: 65%;
+    Padding: 0 50px 0 50px;
+    margin-top: 50px;
+
+    border-radius: 5px 5px 0 0;
+    border-style: solid;
+    border-width: medium;
+    border-color: deeppink;
+}
+
+div.main {
+    background-color: rgba(255, 228, 239, 0.95);
+    width: 65%;
+    Padding: 50px 50px 50px 50px;
+    margin-bottom: 50px;
+    border-radius: 0 0 5px 5px;
+    border-style: solid;
+    border-width: medium;
+    border-color: deeppink;
 }
 
 .center {
