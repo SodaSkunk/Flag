@@ -11,6 +11,23 @@ body {
     text-align: center;
 }
 
+h1 {
+    color: blanchedalmond;
+    padding: 5px;
+}
+
+a:link {
+    color:blueviolet
+  }
+  
+a:visited {
+    color:darkblue
+  }
+  
+a:hover {
+    color:aqua
+  }
+  
 p.bar {
     text-align: right;
     font-size: large;
@@ -18,11 +35,22 @@ p.bar {
     margin: 0 5px 0 5px;
 }
 
-div.bar{
-    background-color: deeppink;
+#wrap {
     width: 65%;
-    Padding: 0 50px 0 50px;
+}
+
+#dark {
+    background-color: rgba(0, 0, 138, 0.8);
+    padding: 5px;
     margin-top: 50px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+#bar {
+    background-color: deeppink;
+    Padding: 0 50px 0 50px;
+    margin-top: 20px;
 
     border-radius: 5px 5px 0 0;
     border-style: solid;
@@ -30,15 +58,25 @@ div.bar{
     border-color: deeppink;
 }
 
-div.main {
+#main {
     background-color: rgba(255, 228, 239, 0.95);
-    width: 65%;
     Padding: 50px 50px 50px 50px;
-    margin-bottom: 50px;
     border-radius: 0 0 5px 5px;
     border-style: solid;
     border-width: medium;
     border-color: deeppink;
+}
+
+#pink {
+    background-color: rgba(255, 20, 147, 0.8);
+    padding: 5px;
+    margin-top: 20px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.margin {
+    margin-bottom: 50px;
 }
 
 .center {
@@ -47,6 +85,12 @@ div.main {
     margin-right: auto;
 }
 
+.inline {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
 ul {
     list-style-image: url("gifs/tinysparklestar.gif");
-  }
+}
