@@ -3,8 +3,10 @@ body {
 }
 
 .textstyle {
-    color: rgb(0, 0, 0);
+    color: blanchedalmond;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .textcenter {
@@ -17,11 +19,11 @@ h1 {
 }
 
 a:link {
-    color:blueviolet
+    color:violet
   }
   
 a:visited {
-    color:darkblue
+    color:mediumpurple
   }
   
 a:hover {
@@ -31,7 +33,7 @@ a:hover {
 p.bar {
     text-align: right;
     font-size: large;
-    color: white;
+    color: blanchedalmond;
     margin: 0 5px 0 5px;
 }
 
@@ -40,7 +42,7 @@ p.bar {
 }
 
 #dark {
-    background-color: rgba(0, 0, 138, 0.8);
+    background-color: rgba(25, 25, 112, 0.8);
     padding: 5px;
     margin-top: 50px;
     width: fit-content;
@@ -48,27 +50,27 @@ p.bar {
 }
 
 #bar {
-    background-color: deeppink;
-    Padding: 0 50px 0 50px;
+    background-color:mediumvioletred;
+    
     margin-top: 20px;
 
     border-radius: 5px 5px 0 0;
     border-style: solid;
     border-width: medium;
-    border-color: deeppink;
+    border-color: mediumvioletred;
 }
 
 #main {
-    background-color: rgba(255, 228, 239, 0.95);
+    background-color:rgba(22, 22, 43, 0.9);
     Padding: 50px 50px 50px 50px;
     border-radius: 0 0 5px 5px;
     border-style: solid;
     border-width: medium;
-    border-color: deeppink;
+    border-color: mediumvioletred;
 }
 
 #pink {
-    background-color: rgba(255, 20, 147, 0.8);
+    background-color: rgba(25, 25, 112, 0.8);
     padding: 5px;
     margin-top: 20px;
     width: fit-content;
@@ -93,4 +95,8 @@ p.bar {
 
 ul {
     list-style-image: url("gifs/tinysparklestar.gif");
+}
+
+.opacity {
+    opacity: 0.8;
 }
